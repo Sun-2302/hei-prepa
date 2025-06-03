@@ -11,9 +11,15 @@ abstract class Car implements Toy {
 }
 
 class LittleCarToy extends Car {
+    public function play(): string {
+        return "Play Little Car";
+    }
 }
 
 class MiddleCarToy extends Car {
+    public function play(): string {
+        return "Play Middle Car";
+    }
 }
 
 abstract class Doll implements Toy {
@@ -23,9 +29,15 @@ abstract class Doll implements Toy {
 }
 
 class LittleDollToy extends Doll {
+    public function play(): string {
+        return "Play Little Doll";
+    }
 }
 
 class MiddleDollToy extends Doll {
+    public function play(): string {
+        return "Play Middle Doll";
+    }
 }
 
 interface ToyFactory {
