@@ -37,9 +37,9 @@ export class Game {
 
   handleInput(input) {
     const dir = input.trim().toUpperCase();
-    if (dir === "Z") this.direction = Direction.UP;
+    if (dir === "W") this.direction = Direction.UP;
     else if (dir === "S") this.direction = Direction.DOWN;
-    else if (dir === "Q") this.direction = Direction.LEFT;
+    else if (dir === "A") this.direction = Direction.LEFT;
     else if (dir === "D") this.direction = Direction.RIGHT;
     this.state.handleInput(this, input);
   }
