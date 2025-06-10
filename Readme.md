@@ -1,6 +1,12 @@
 # 🐍 HEI Snake Game  
 *(Calculatrice et cahier de leçon autorisés)*  
 
+## Lancement
+Écris dans le terminal
+```
+node snake/index.js
+```
+Pour jouer il faut appuyer sur la touche entrée après le choix de la direction
 ## 🎯 Objectifs
 
 Développer un mini-moteur du **Snake Game** en console, en appliquant les principes de **Clean Code** :
